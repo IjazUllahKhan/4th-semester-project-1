@@ -1,0 +1,42 @@
+
+.headerContainer{
+    height: 16vh;
+    background-color: blueviolet;
+}
+
+.headerContent{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logoImage{
+    height: 100%;
+}
+
+.centerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerContent h1 , h3{
+    text-shadow:2px 2px 3px red ;
+}
+
+.rightImage{
+    height: 100%;
+}
+
+/* @media (max-width : 760px){
+    .logoImage{
+        display: none;
+    }
+    .rightImage{
+        display: none;
+    }
+} */

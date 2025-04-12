@@ -1,26 +1,19 @@
-import { createContext, useState } from 'react'
 import './App.css'
-import ChildA from './components/childA'
-
-const userContext = createContext()
-const themeContext = createContext()
-
+import Footer from './components/footer/Footer.jsx'
+import Header from './components/header/Header.jsx'
+import MainContent from './components/mainContent/MainContent.jsx'
+import Navbar from './components/navbar/Navbar.jsx'
+import Ticker from './components/ticker/Ticker.jsx'
 function App() {
-  const [user,setUser] = useState("IUK")
-  const [theme,setTheme] = useState("light")
   return (
     <>
-    <themeContext.Provider  value={{theme,setTheme}}>
-      <userContext.Provider value={user}>
-        <ChildA/>
-      </userContext.Provider>
-   </themeContext.Provider>
+    <Header/>
+    <Navbar/>
+    <Ticker/>
+    <MainContent/>
+    <Footer/>
     </>
   )
 }
 
 export default App
-
-
-export {userContext}
-export {themeContext}

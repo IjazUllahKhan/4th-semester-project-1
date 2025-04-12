@@ -1,0 +1,26 @@
+.ticker{
+    height: 35px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ticker-txt{
+    position: absolute;
+    right: -39%;
+    animation: scrollRight 15s linear infinite;
+    font-weight: bold;
+}
+
+@keyframes scrollRight{
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-370%);
+    }
+}

@@ -1,0 +1,86 @@
+
+  .footer-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.856);
+    height: 120px;
+  }
+
+  .footer-content{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.social{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.copyRight{
+    display: flex;
+    justify-content: center;
+}
+
+.copyRight p{
+    font-size: 1.5rem;
+}
+
+.fa{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    transition: all 1s;
+}
+
+.fa::after{
+    content: attr(sname);
+    position: absolute;
+    transform: translatex(80%);
+}
+
+.icon{
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.icon:hover{
+    width: 200px;
+    background-color: white;
+}
+
+.fa-facebook{
+    color: #3B5998;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.fa-twitter{
+    color: #55ACEE;
+    font-size: 25px;
+}
+
+.fa-youtube{
+    color:#bb0000;
+    font-size: 25px;
+}
+
+.fa-linkedin{
+    color: #007bb5;
+    font-size: 25px;
+}
+
+

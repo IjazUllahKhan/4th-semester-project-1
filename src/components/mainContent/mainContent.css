@@ -1,0 +1,108 @@
+.mainContainer{
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    height: 300px;
+}
+.mainContainer aside{
+    width: 15%;
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    height: 100%;
+}
+
+.sideBar li{
+    
+    background-color: rgba(0, 128, 0, 0.842);
+    border-bottom: 2px solid black;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sideBar a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.sideBar li:hover{
+    background-color: rgba(177, 5, 5, 0.76);
+    box-shadow: inset 10px 0px red;
+}
+
+.mainContainer main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30%;
+}
+
+.mainContainer main form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer main form .form-field{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30%;
+    margin-bottom: 5px;
+}
+
+.mainContainer main form .form-field .input-field{
+    width: 200px;
+    height: 25px;
+    background-color: rgba(0, 128, 0, 0.712);
+    color: white;
+    padding: 0 5px;
+}
+
+.radio-group{
+    width: 200px;
+    height: 25px;
+    background-color: rgba(0, 128, 0, 0.712);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+    background-color: rgba(0, 128, 0, 0.712);
+    color: white;
+    padding: 0 5px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20%;
+    margin-top: 2px;
+    margin-right: 180px;
+    gap: 5px;
+}
+
+.btns button{
+    width: 170px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgba(12, 12, 206, 0.781);
+     color: white;
+}
+
+.btns button:hover{
+    background-color: brown;
+}
