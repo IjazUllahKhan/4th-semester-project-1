@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ijazullahkhan.github.io/4th-semester-project-1/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
