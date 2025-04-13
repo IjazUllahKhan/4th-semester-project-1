@@ -25,7 +25,9 @@
 }
 
 .copyRight p{
+    margin-top: 1rem;
     font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.74);
 }
 
 .fa{
